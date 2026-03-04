@@ -1,8 +1,14 @@
-function TarjetaUsuario(props) {
+function TarjetaUsuario({ nombre, juegoFavorito }) {
+  const estilo = {
+    border: '2px solid black',
+    padding: '10px',
+    margin: '10px'
+  };
+
   return (
-    <div style={{ border: '2px solid black', padding: '10px', margin: '10px' }}>
-      <h3>Jugador: {props.nombre}</h3>
-      <p>Juego favorito: {props.juegoFavorito}</p>
+    <div style={estilo}>
+      <h3>Jugador: {nombre}</h3>
+      <p>Juego favorito: {juegoFavorito}</p>
     </div>
   );
 }

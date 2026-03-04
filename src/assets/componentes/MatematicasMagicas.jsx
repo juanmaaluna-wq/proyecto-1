@@ -2,7 +2,7 @@
 function MatematicasMagicas() {
   const nombre = "Alex";
   const edad = 17;
-  const anioNacimiento = 2024 - edad; // Calculamos algo rápido
+  const anioNacimiento = 2024 - edad;
 
   return (
     <div className="tarjeta">
